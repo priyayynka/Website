@@ -9,6 +9,9 @@
 
   <!-- custom css file link  -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- loading page  -->
+  <link rel="stylesheet" href="loader.css">
  
   <title>RAIT ACM</title>
 </head>
@@ -356,6 +359,60 @@
 
 <!-- footer section ends -->
 
+<!-- loading page starts -->
+<div id="preloader">
+  <svg id="logo" width="278" height="47" viewBox="0 0 278 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 45.233V1.59659H15.7443C19.1534 1.59659 21.9517 2.17898 24.1392 3.34375C26.3267 4.49432 27.946 6.07813 28.9972 8.09517C30.0483 10.1122 30.5739 12.4063 30.5739 14.9773C30.5739 17.5483 30.0483 19.8281 28.9972 21.8168C27.946 23.8054 26.3338 25.3679 24.1605 26.5043C21.9872 27.6264 19.2102 28.1875 15.8295 28.1875H3.89773V23.4148H15.6591C17.9886 23.4148 19.8636 23.0739 21.2841 22.392C22.7188 21.7102 23.7557 20.7443 24.3949 19.4943C25.0483 18.2301 25.375 16.7244 25.375 14.9773C25.375 13.2301 25.0483 11.7031 24.3949 10.3963C23.7415 9.08949 22.6974 8.08097 21.2628 7.37074C19.8281 6.64631 17.9318 6.28409 15.5739 6.28409H6.28409V45.233H1ZM21.5398 25.6307L32.2784 45.233H26.142L15.5739 25.6307H21.5398Z" stroke="#8F00FF" stroke-width="2" mask="url(#path-1-outside-1_1_7)"/>
+    <path d="M41.1687 45.233H35.6289L51.6516 1.59659H57.1062L73.1289 45.233H67.5891L54.5494 8.5H54.2085L41.1687 45.233ZM43.2141 28.1875H65.5437V32.875H43.2141V28.1875Z" stroke="#8F00FF" stroke-width="2" mask="url(#path-1-outside-1_1_7)"/>
+    <path d="M85.2099 1.59659V45.233H79.9258V1.59659H85.2099Z" stroke="#8F00FF" stroke-width="2" mask="url(#path-1-outside-1_1_7)"/>
+    <path d="M93.4183 6.28409V1.59659H126.146V6.28409H112.424V45.233H107.14V6.28409H93.4183Z" stroke="#8F00FF" stroke-width="2" mask="url(#path-1-outside-1_1_7)"/>
+    <path d="M152.966 45.233H147.426L163.449 1.59659H168.903L184.926 45.233H179.386L166.346 8.5H166.005L152.966 45.233ZM155.011 28.1875H177.341V32.875H155.011V28.1875Z" stroke="#8F00FF" stroke-width="2" mask="url(#path-1-outside-1_1_7)"/>
+    <path d="M224.786 15.233H219.501C219.189 13.7131 218.642 12.3778 217.861 11.2273C217.094 10.0767 216.156 9.1108 215.048 8.32955C213.955 7.53409 212.74 6.9375 211.405 6.53977C210.07 6.14205 208.678 5.94318 207.229 5.94318C204.587 5.94318 202.193 6.6108 200.048 7.94602C197.918 9.28125 196.22 11.2486 194.956 13.848C193.706 16.4474 193.081 19.6364 193.081 23.4148C193.081 27.1932 193.706 30.3821 194.956 32.9815C196.22 35.581 197.918 37.5483 200.048 38.8835C202.193 40.2187 204.587 40.8864 207.229 40.8864C208.678 40.8864 210.07 40.6875 211.405 40.2898C212.74 39.892 213.955 39.3026 215.048 38.5213C216.156 37.7259 217.094 36.7528 217.861 35.6023C218.642 34.4375 219.189 33.1023 219.501 31.5966H224.786C224.388 33.8267 223.663 35.8224 222.612 37.5838C221.561 39.3452 220.254 40.8438 218.692 42.0795C217.129 43.3011 215.375 44.2315 213.429 44.8707C211.497 45.5099 209.43 45.8295 207.229 45.8295C203.507 45.8295 200.197 44.9205 197.3 43.1023C194.402 41.2841 192.122 38.6989 190.46 35.3466C188.798 31.9943 187.967 28.017 187.967 23.4148C187.967 18.8125 188.798 14.8352 190.46 11.483C192.122 8.13068 194.402 5.54546 197.3 3.72727C200.197 1.90909 203.507 1 207.229 1C209.43 1 211.497 1.3196 213.429 1.95881C215.375 2.59801 217.129 3.53551 218.692 4.77131C220.254 5.9929 221.561 7.48437 222.612 9.24574C223.663 10.9929 224.388 12.9886 224.786 15.233Z" stroke="#8F00FF" stroke-width="2" mask="url(#path-1-outside-1_1_7)"/>
+    <path d="M233.324 1.59659H239.631L254.461 37.8182H254.972L269.801 1.59659H276.108V45.233H271.165V12.0795H270.739L257.103 45.233H252.33L238.694 12.0795H238.267V45.233H233.324V1.59659Z" stroke="#8F00FF" stroke-width="2" mask="url(#path-1-outside-1_1_7)"/>
+    </svg>
+</div>
+
+<!--random shit that need to be added for it to be given enough time for the loader to be visible-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/5qjnDd1rsII" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+
+<script>
+  var loader = document.getElementById("preloader");
+  window.addEventListener("load",function(){
+    loader.style.display = "none";
+  })
+  /*setTimeout(() => {
+      let intervalID = setInterval(() => {
+        if (barWidth === 100) {
+            clearInterval(intervalID);
+        } else {
+            animate();
+        }
+      }, 100); //this sets the speed of the animation
+  }, 2000);*/
+</script>
+
+
+
+<!-- loading page ends -->
+
 
 
 
@@ -381,6 +438,8 @@
 <!-- custom js file link  -->
 
 <script src="main.js"></script>
+
+
 
   
 </body>
